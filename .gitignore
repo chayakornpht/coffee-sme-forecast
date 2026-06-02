@@ -1,0 +1,26 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Environment
+.env
+*.env.local
+
+# Data — generated, not committed
+mock_data/*.csv
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Jupyter
+*.ipynb_checkpoints/
+
+# Logs
+*.log
