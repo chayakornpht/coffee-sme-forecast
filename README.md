@@ -91,8 +91,8 @@ weather impact, holidays, seasonal trend, bakery waste
 
 - [x] Mock data generation
 - [x] PostgreSQL schema + ingestion pipeline
-- [ ] EDA — สำรวจข้อมูลและหา insight
-- [ ] Baseline forecast (moving average)
-- [ ] ML forecast (LightGBM with feature engineering)
-- [ ] Waste analysis และ business impact estimation
-- [ ] Final deliverable — proposal + dashboard
+- [x] EDA — สำรวจข้อมูลและหา insight
+- [x] Baseline forecast (moving average)
+- [x] ML forecast (LightGBM with feature engineering)
+- [x] Waste analysis และ business impact estimation
+- [x] **[Full proposal →](proposal.md)**
