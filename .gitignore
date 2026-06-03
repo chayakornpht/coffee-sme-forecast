@@ -27,3 +27,6 @@ Thumbs.db
 
 # Cached data
 data_cache/
+
+# Generated model artifacts
+models/
