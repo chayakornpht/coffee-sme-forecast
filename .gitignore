@@ -24,3 +24,6 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Cached data
+data_cache/
