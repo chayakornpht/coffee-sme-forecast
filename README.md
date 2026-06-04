@@ -57,6 +57,14 @@ weather impact, holidays, seasonal trend, bakery waste
 
 ---
 
+## Running the dashboard
+
+```bash
+streamlit run notebooks/04_dashboard.py
+```
+
+Prerequisite: run notebook 03 first to generate `models/` artifacts.
+The dashboard opens at `http://localhost:8501`.
 ## Roadmap
 
 - [x] Mock data generation
