@@ -36,36 +36,6 @@ coffee-sme-forecast/
 
 ---
 
-## วิธีตั้งค่าตั้งแต่ศูนย์
-
-ต้องมี Python 3.10+ และ PostgreSQL 14+ ในเครื่อง
-
-```bash
-# 1. สร้าง virtual environment
-python -m venv .venv
-.venv\Scripts\Activate.ps1     # Windows PowerShell
-# source .venv/bin/activate     # Mac/Linux
-
-# 2. ติดตั้ง dependencies
-pip install -r ingestion/requirements.txt
-
-# 3. สร้าง database
-createdb coffee_sme
-
-# 4. สร้าง mock CSV
-cd mock_data
-python generate_mock.py
-cd ..
-
-# 5. โหลดเข้า Postgres
-$env:DB_URL='postgresql://user:pass@localhost:5432/coffee_sme'
-$env:DATA_DIR='./mock_data'
-python ingestion/ingest.py
-```
-
-ใช้เวลารวมประมาณ 2-3 นาทีเสร็จ จะได้ database ที่มี 500k+ transactions พร้อมใช้
-
----
 
 ## Tech Stack
 
